@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.main{
+    
+}
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #0D63F3;
+        border-radius: 0 0 43px 43px;
+        padding: 0 65px 0 65px;
+        height: 74px;
+        
+    }
+
+    .points{
+        display: flex;
+        justify-content: space-between;
+        width: 459px;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .user{
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+    }
+
+    #avatar{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff34f;
+        margin-right: 10px;
+    }
+    
+    #name-user{
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+    #but-personal-room{
+        background-color: transparent;
+        border: 0;
+        margin-left: 20px;
+    }
+
+    .content{
+        display: flex;
+
+    }
