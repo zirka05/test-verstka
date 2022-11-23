@@ -5,8 +5,7 @@
     color: #ffffff;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@300;400;500;600&display=swap');
 
 .main{
     
@@ -72,38 +71,41 @@
         color: black;
     }
     .container{
+        margin-top: 40px;
         display: flex;
         justify-content: space-between;
         width: 950px;
     }
     .container1{
         width: 400px;
-        height: 600px;
     }
     .container2{
         width: 400px;
-        height: 600px;
     }
     h4{
         color: #000;
         font-size: 16px;
         font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        
+        
     }
     .big-input{
         width: 400px;
         height: 55px;
         border-radius: 5px;
         box-shadow: none;
-        border: 1px solid #0D63F3;
+        border: 1px solid #E6E7E8;
         margin-top: 10px;
         margin-bottom: 34px;
         font-size: 16px;
         font-family: 'Inter', sans-serif;
         text-indent: 20px;
         color: #000;
+        outline: none;
         
     }
-    .big-input:focus{
+    input:focus{
         border: 1px solid #0D63F3;
         
     }
@@ -115,27 +117,63 @@
         height: 55px;
         border-radius: 5px;
         box-shadow: none;
-        border: 1px solid #0D63F3;
+        border: 1px solid #E6E7E8;
         margin-top: 10px;
         margin-bottom: 34px;
-        font-size: 16px;
+        font-size: 24px;
         font-family: 'Inter', sans-serif;
-        text-indent: 20px;
+        padding: 0 20px 0 20px;
         color: #000;
+        outline: none;
+    }
+    #data:focus{
+        border: 1px solid #0D63F3;
+    }
+
+    #data::-webkit-calendar-picker-indicator{
+        width: 31px;
+        height: 31px;
+        background-color: transparent;
     }
     #time{
         width: 165px;
         height: 55px;
         border-radius: 5px;
         box-shadow: none;
-        border: 1px solid #0D63F3;
+        border: 1px solid #E6E7E8;
         margin-top: 10px;
         margin-bottom: 34px;
-        font-size: 16px;
+        font-size: 20px;
         font-family: 'Inter', sans-serif;
-        text-indent: 20px;
-        color: #000;
+        font-weight: 300;
+        padding: 0 20px 0 20px;
+        color:  #000;
         margin-left: 20px;
+        outline: none;
+    }
+    #time:focus{
+        border: 1px solid #0D63F3;
+    }
+    #time::-webkit-calendar-picker-indicator{
+        width: 31px;
+        height: 31px;
+        color: #93A2B8;
+        border-color: #93A2B8;
+
+    }
+    .cont-radio-access{
+        margin-top: 15px;
+    }
+    .cont-r1{
+        display: flex;  
+    }
+    .cont-r2{
+        display: flex;  
+        margin-top: 20px;
+    }
+    .radio-css{
+        margin-right:20px;
+        width: 24px;
     }
     #nice{
         font-family: 'Inter', sans-serif;
@@ -146,6 +184,7 @@
         border-radius: 5px;
         width: 225px;
         height: 60px;
+        outline: none;
     }
     h3{
         font-family: 'Inter', sans-serif;

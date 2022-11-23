@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
         <div class="header">
-            <div class="logo"><svg width="164" height="56" viewBox="0 0 164 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="logo">
+                <svg width="164" height="56" viewBox="0 0 164 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M22.5375 41.1319C23.8906 41.1319 24.9875 40.035 24.9875 38.6819C24.9875 37.3288 23.8906 36.2319 22.5375 36.2319C21.1844 36.2319 20.0875 37.3288 20.0875 38.6819C20.0875 40.035 21.1844 41.1319 22.5375 41.1319Z" fill="white"/>
                 <path d="M35.4632 41.1319C36.8163 41.1319 37.9132 40.035 37.9132 38.6819C37.9132 37.3288 36.8163 36.2319 35.4632 36.2319C34.1101 36.2319 33.0132 37.3288 33.0132 38.6819C33.0132 40.035 34.1101 41.1319 35.4632 41.1319Z" fill="white"/>
                 <path d="M13.7517 15.6202H29.1791H40.4235C43.0535 15.6202 44.9678 18.1148 44.2872 20.6553L43.8121 22.4287L40.7118 34.2187C40.6403 34.5085 40.4716 34.765 40.234 34.9457C39.9964 35.1263 39.704 35.22 39.4057 35.2113H24.7614H20.2882C18.2501 35.2113 16.4513 33.8792 15.8571 31.9296L10.8652 15.5522L9.32643 14.8155C8.99389 14.7133 8.71557 14.4832 8.55269 14.1758C8.3898 13.8685 8.3557 13.5089 8.45789 13.1764C8.56008 12.8439 8.79018 12.5655 9.09757 12.4027C9.24978 12.322 9.41638 12.2721 9.58787 12.2559C9.75935 12.2396 9.93236 12.2573 10.097 12.3079L10.8351 12.6047C11.9603 13.0573 12.8826 13.9033 13.4303 14.9853L13.7517 15.6202Z" fill="white"/>
@@ -44,12 +48,14 @@
         </div>
         <div class="content">
             <h2>Создание мероприятия</h2>
+
             <div class="container">
                 <div class="container1">
                     <h4>Название мероприятия </h4>
                     <input class="big-input" id="name-ivent" placeholder="Введите название">
                     <h4>Имя ведущего</h4>
                     <input class="big-input" id="name-leader" placeholder="Введите имя">
+
                     <div class="cont-data-time">
                         <h4>Дата и время начала</h4>
                         <div class="data">
@@ -57,10 +63,35 @@
                             <input type="time" id="time">
                         </div>
                     </div>
+
+                    <h4>Ссылка на YouTube трансляцию</h4>
+                    <input class="big-input" id="link-Y" placeholder="Вставте ссылку">
+                    <h4>Ссылка на заглушку </h4>
+                    <input class="big-input" id="link-X" placeholder="Вставте ссылку">
                     <h4>Внешняя кнопка (ссылка)</h4>
                     <input class="big-input" id="link" placeholder="Вставте ссылку">
                 </div>
-                <div class="container2"></div>
+
+                <div class="container2">
+                    <h4>Доступ к мероприятию</h4>
+
+                    <div class="cont-radio-access">
+                        <div class="cont-r1">
+                            <input type="radio" name="radio" id="for-password" class="radio-css">
+                            <h4>По паролям</h4>
+                        </div>
+
+                        <div class="cont-r2">
+                            <input type="radio" name="radio" id="open" class="radio-css">
+                            <h4>Открытый</h4>
+                        </div>
+                    </div>
+
+                    <div class="cont-radio-">
+
+                    </div>
+                    
+                </div>
             </div>
             <button id="nice">Сохранить</button>
             <h3>Trade Broadcast 2022 ©</h3>
