@@ -7,10 +7,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@300;400;500;600&display=swap');
 
-.main{
-    
-}
-
     .header{
         display: flex;
         align-items: center;
@@ -21,7 +17,6 @@
         height: 74px;
         
     }
-
     .points{
         display: flex;
         justify-content: space-between;
@@ -30,13 +25,11 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
     }
-
     .user{
         display: flex;
         align-items: center;
         justify-content:flex-end;
     }
-
     #avatar{
         width: 40px;
         height: 40px;
@@ -44,20 +37,21 @@
         background-color: #fff34f;
         margin-right: 10px;
     }
-    
     #name-user{
         font-size: 16px;
         font-family: 'Inter', sans-serif;
         font-weight: 500;
     }
-
     #but-personal-room{
         background-color: transparent;
         border: 0;
         margin-left: 20px;
     }
 
-    .content{
+
+
+
+    .main{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -67,6 +61,7 @@
     h2{
         font-family: 'Inter', sans-serif;
         font-size: 25px;
+        font-weight: 500;
         margin-top:33px;
         color: black;
     }
@@ -76,19 +71,17 @@
         justify-content: space-between;
         width: 950px;
     }
-    .container1{
+    .container-for-input{
         width: 400px;
     }
-    .container2{
+    .container-for-check{
         width: 400px;
     }
     h4{
         color: #000;
         font-size: 16px;
         font-family: 'Poppins', sans-serif;
-        font-weight: 100;
-        
-        
+        font-weight: 400;               
     }
     .big-input{
         width: 400px;
@@ -109,18 +102,19 @@
         border: 1px solid #0D63F3;
         
     }
-    .data{
+    .data-css{
         display: flex;
+        width: 40;
     }
     #data{
-        width: 220px;
+        width: 178px;
         height: 55px;
         border-radius: 5px;
         box-shadow: none;
         border: 1px solid #E6E7E8;
         margin-top: 10px;
         margin-bottom: 34px;
-        font-size: 24px;
+        font-size: 16px;
         font-family: 'Inter', sans-serif;
         padding: 0 20px 0 20px;
         color: #000;
@@ -130,54 +124,131 @@
         border: 1px solid #0D63F3;
     }
 
-    #data::-webkit-calendar-picker-indicator{
-        width: 31px;
-        height: 31px;
-        background-color: transparent;
-    }
     #time{
-        width: 165px;
+        width: 125px;
         height: 55px;
         border-radius: 5px;
         box-shadow: none;
         border: 1px solid #E6E7E8;
         margin-top: 10px;
         margin-bottom: 34px;
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Inter', sans-serif;
         font-weight: 300;
-        padding: 0 20px 0 20px;
         color:  #000;
-        margin-left: 20px;
+        margin-left: 15px;
         outline: none;
+        padding: 0 20px 0 20px;
     }
     #time:focus{
         border: 1px solid #0D63F3;
     }
-    #time::-webkit-calendar-picker-indicator{
-        width: 31px;
-        height: 31px;
-        color: #93A2B8;
-        border-color: #93A2B8;
 
-    }
+
+
     .cont-radio-access{
         margin-top: 15px;
     }
-    .cont-r1{
+    .cont-radio{
         display: flex;  
     }
-    .cont-r2{
+    .cont-radio1{
         display: flex;  
         margin-top: 20px;
     }
     .radio-css{
         margin-right:20px;
         width: 24px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 50%;
+        border: 1px solid #0D63F3;
+        transition: 0.2s;
     }
-    #nice{
+    .radio-css:checked{
+        background-color: #0D63F3;
+        outline: 2px solid #ffffff;
+        box-shadow:0px 0px 0px 3px #ffffff inset;
+        
+    }
+    .cont-radio-settings{
+        margin-top:30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cont-radio-settings1{
+        display: flex;
+        border-bottom:2px solid #E6E7E8;
+        justify-content: space-between;
+        padding:20px 0 20px 0 ;
+    }
+    #big-h4{
+        width: 230px;
+    }
+    .radio-css1{
+        width: 40px;
+        height: 24px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 50% 50% 50% 50%;
+        background-color: #5DB075;
+        transition: 0.2s;
+    }
+    .radio-css1:checked{
+        
+    }
+    .cont-PDF{
+        margin-top: 50px;
+    }
+    #PDF-button{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: 'Inter', sans-serif;
-        font-weight: 600;
+        font-size: 16px;
+        background: #0D63F3;
+        border: none;
+        border-radius: 5px;
+        width: 225px;
+        height: 60px;
+        outline: none;
+    }
+    #svg-PDF{
+        margin-left: 10px;
+    }
+    .cont-radio-add-settings{
+        margin-top: 50px;
+    }
+    .cont-radio-add-settings1{
+        margin-top: 20px;
+        display: flex;
+    }
+    .checkbox-css{
+        width: 24px;
+        margin-right: 20px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 50%;
+        border: 1px solid #0D63F3;
+        transition: 0.2s;
+    }
+    .checkbox-css:checked{
+        background-color: #0D63F3;
+    }
+
+
+
+
+
+
+
+    #save{
+        margin-top: 40px;
+        font-family: 'Inter', sans-serif;
         font-size: 16px;
         background: #0D63F3;
         border: none;
@@ -187,8 +258,11 @@
         outline: none;
     }
     h3{
+        margin-top: 65px;
+        margin-bottom: 20px;
         font-family: 'Inter', sans-serif;
         font-size: 16px;
+        font-weight: 500;
         color: #BDBDBD;
         background-color: transparent;
 
